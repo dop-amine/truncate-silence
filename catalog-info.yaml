@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: truncate-silence
+  title: Truncate Silence
+  description: >-
+    A bash script that uses ffmpeg to truncate silent sections from a
+    directory of video files. Last touched 2023 — a small personal tool,
+    catalogued rather than left silently off the registry.
+  annotations:
+    github.com/project-slug: dop-amine/truncate-silence
+    dop-amine.com/tier: '3'
+spec:
+  type: cli
+  lifecycle: deprecated
+  owner: dop-amine
